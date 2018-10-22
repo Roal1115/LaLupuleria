@@ -1,0 +1,91 @@
+{ 
+    "ResourcesLocation" : "Resources",
+    "Language" : "Spanish",
+    "Theme" : "CarmineAndroid",
+    "Images" : [ { 
+        "Name" : "Group",
+        "Type" : "I",
+        "Guid" : "429d6190-65aa-4257-86db-fce0370ff650",
+        "Location" : "CarmineAndroid/Group.png"
+    }, { 
+        "Name" : "crediok",
+        "Type" : "I",
+        "Guid" : "24cd8d0a-d8ce-4479-b862-9acbc5db0982",
+        "Location" : "crediok.png"
+    }, { 
+        "Name" : "GDM3",
+        "Type" : "I",
+        "Guid" : "eca9e868-5bcd-47b2-ae11-7b13982b1248",
+        "Location" : "GDM3.png"
+    }, { 
+        "Name" : "prexa",
+        "Type" : "I",
+        "Guid" : "a043eedc-4983-4ca8-a77c-0f9f496d2159",
+        "Location" : "prexa.png"
+    }, { 
+        "Name" : "archives",
+        "Type" : "I",
+        "Guid" : "d913aebd-0ad9-4b3b-8ab3-ac3ea2538e2b",
+        "Location" : "archives.png"
+    }, { 
+        "Name" : "businessmen",
+        "Type" : "I",
+        "Guid" : "b2790053-cbbb-41f5-91db-5e7b44dcef40",
+        "Location" : "businessmen.png"
+    }, { 
+        "Name" : "certificate",
+        "Type" : "I",
+        "Guid" : "bafa890b-1098-46c8-bc1b-a6b237f6d70c",
+        "Location" : "certificate.png"
+    }, { 
+        "Name" : "chat_1",
+        "Type" : "I",
+        "Guid" : "b21404bb-d6b0-40c2-80cd-5cc58ff7b1f4",
+        "Location" : "chat_1.png"
+    }, { 
+        "Name" : "handshake",
+        "Type" : "I",
+        "Guid" : "13f27d15-5dc8-4253-acc1-74fd895fc0c6",
+        "Location" : "handshake.png"
+    }, { 
+        "Name" : "hierarchical_structure",
+        "Type" : "I",
+        "Guid" : "d488fdb8-32f7-4e34-9b99-c97ea8ad774e",
+        "Location" : "hierarchical_structure.png"
+    }, { 
+        "Name" : "id_card",
+        "Type" : "I",
+        "Guid" : "35524d68-3610-435b-8057-78b89bae66ed",
+        "Location" : "id_card.png"
+    }, { 
+        "Name" : "job_search",
+        "Type" : "I",
+        "Guid" : "92365374-ac2c-4662-bcbc-4a83018f84dc",
+        "Location" : "job_search.png"
+    }, { 
+        "Name" : "profits",
+        "Type" : "I",
+        "Guid" : "7936a7d4-6740-4384-820a-1aea95c9d02e",
+        "Location" : "profits.png"
+    }, { 
+        "Name" : "reunion",
+        "Type" : "I",
+        "Guid" : "19343a20-eefd-411d-9ffc-4ec9085af757",
+        "Location" : "reunion.png"
+    }, { 
+        "Name" : "team_2",
+        "Type" : "I",
+        "Guid" : "ce557792-3367-462a-bdbe-dbc997f404eb",
+        "Location" : "team_2.png"
+    }, { 
+        "Name" : "team_5",
+        "Type" : "I",
+        "Guid" : "05e77b26-0ca9-4389-a020-7cc794a095f6",
+        "Location" : "team_5.png"
+    }, { 
+        "Name" : "verbo_",
+        "Type" : "I",
+        "Guid" : "2e56b842-d5a9-4de8-9569-7c956d4b9f83",
+        "Location" : "verbo_.jpg"
+    } ]
+}
