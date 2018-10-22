@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'PushTestMain' target in the 'PushTestMain' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import <GXUIApplication/GXUIApplication.h>
+#endif

@@ -1,0 +1,11 @@
+{ 
+    "Resources" : [ { 
+        "Language" : "English",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_English_CarmineAndroid.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_Spanish_CarmineAndroid.json"
+    } ]
+}
