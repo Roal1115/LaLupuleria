@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.calendariosd_level_detail_grid1_services,calendariosd_level_detail_grid1" %>

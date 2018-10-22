@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="ec3c8da9-1c19-4846-acdf-f517cc5cc689">
+  <Table name="Materias" />
+  <Table name="Califas" />
+</Dependencies>

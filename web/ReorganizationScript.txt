@@ -1,0 +1,2 @@
+CREATE TABLE [SchoolInfoTrs] ([SchoolInfoTrsId]  smallint NOT NULL  IDENTITY(1,1), [SchoolInfoTrsNombre]  char(200) NOT NULL , [SchoolInfoTrsSolgan]  char(200) NOT NULL , [SchoolInfoTrsAddress]  varchar(1024) NOT NULL , [SchoolInfoTrsPhone]  char(20) NOT NULL , [SchoolInfoTrsImagen]  VARBINARY(MAX) NOT NULL , [SchoolInfoTrsImagen_GXI]  varchar(2048) NOT NULL , PRIMARY KEY([SchoolInfoTrsId]))
+

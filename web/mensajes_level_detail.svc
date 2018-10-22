@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.mensajes_level_detail_services,mensajes_level_detail" %>

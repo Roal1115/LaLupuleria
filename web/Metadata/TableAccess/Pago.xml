@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="903966ae-cef8-4482-b745-25294d23879a">
+  <Table name="Balance" />
+  <Table name="BalanceHistory" />
+  <Table name="MonederoElectronico" />
+  <Table name="MonederoElectronicoMovimientos" />
+</Dependencies>

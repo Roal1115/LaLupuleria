@@ -1,0 +1,335 @@
+<configuration>
+   <configSections>
+      <section  name="log4net" type="log4net.Config.Log4NetConfigurationSectionHandler, log4net" requirePermission="false"/>
+      <sectionGroup  name="languages" type="System.Configuration.NameValueSectionHandler">
+         <section  name="English" type="System.Configuration.SingleTagSectionHandler" requirePermission="false"/>
+         <section  name="Spanish" type="System.Configuration.SingleTagSectionHandler" requirePermission="false"/>
+      </sectionGroup>
+   </configSections>
+   <appSettings>
+      <add  key="AppMainNamespace" value="GeneXus.Programs"/>
+      <add  key="DataStore1" value="GXOfflineStore"/>
+      <add  key="DataStore2" value="Default"/>
+      <add  key="DataStore-Count" value="2"/>
+      <add  key="Connection-GXOfflineStore-DBMS" value="sqlite"/>
+      <add  key="Connection-GXOfflineStore-LockTimeout" value="0"/>
+      <add  key="Connection-GXOfflineStore-LockRetryCount" value="10"/>
+      <add  key="Connection-GXOfflineStore-Datasource" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-GXOfflineStore-User" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-GXOfflineStore-Password" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-GXOfflineStore-DB" value="GXOfflineStoredb.sqlite"/>
+      <add  key="Connection-GXOfflineStore-Schema" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-GXOfflineStore-Opts" value=";Integrated Security=yes;"/>
+      <add  key="Connection-GXOfflineStore-TrnInt" value="1"/>
+      <add  key="Connection-Default-DBMS" value="sqlserver"/>
+      <add  key="Connection-Default-Port" value=""/>
+      <add  key="Connection-Default-LockTimeout" value="0"/>
+      <add  key="Connection-Default-LockRetryCount" value="10"/>
+      <add  key="Connection-Default-Datasource" value="MTlPwUK2iM2QST0JXa0P0QDb5R31V9tLQQrbOrsvqxc="/>
+      <add  key="Connection-Default-User" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-Default-Password" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-Default-DB" value="GX_KB_Verbo2"/>
+      <add  key="Connection-Default-Schema" value="82sPNmMP8O3TlpdEZk1r8E=="/>
+      <add  key="Connection-Default-Opts" value=";Integrated Security=yes;"/>
+      <add  key="Connection-Default-TrnInt" value="1"/>
+      <add  key="DateFormat" value="DMY"/>
+      <add  key="YearLimit" value="1940"/>
+      <add  key="TimeAmPmFormat" value="24"/>
+      <add  key="VER_STAMP" value="20181011.234644"/>
+      <add  key="CS_BLOB_PATH" value="PublicTempStorage"/>
+      <add  key="TMPMEDIA_DIR" value="PrivateTempStorage"/>
+      <add  key="PRINT_LAYOUT_METADATA_DIR" value="LayoutMetadata"/>
+      <add  key="StorageTimeZone" value="1"/>
+      <add  key="LOGIN_AS_USERID" value="0"/>
+      <add  key="LANGUAGE" value="spa"/>
+      <add  key="LANG_NAME" value="Spanish"/>
+      <add  key="DECIMAL_POINT" value=","/>
+      <add  key="DATE_FMT" value="DMY"/>
+      <add  key="CTOD_DATE_FMT" value="L"/>
+      <add  key="Culture" value="es-ES"/>
+      <add  key="Theme" value="Carmine"/>
+      <add  key="EnableIntegratedSecurity" value="0"/>
+      <add  key="MAX_CURSOR" value="100"/>
+      <add  key="ISOLATION_LEVEL" value="CR"/>
+      <add  key="STATIC_CONTENT" value=""/>
+      <add  key="GX_BUILD_NUMBER" value="126726"/>
+      <add  key="CACHE_CONTENT_EXPIRATION" value="36"/>
+      <add  key="ENABLE_MANAGEMENT" value="0"/>
+      <add  key="COMPRESS_HTML" value="1"/>
+      <add  key="IE_COMPATIBILITY_VIEW" value="EmulateIE7"/>
+      <add  key="DocumentType" value="HTML5"/>
+      <add  key="SMART_CACHING" value="1"/>
+      <add  key="CACHE_INVALIDATION_TOKEN" value="201810169555063"/>
+   </appSettings>
+   <languages >
+      <English  code="eng" time_fmt="12" decimal_point="." thousand_sep="," date_fmt="MDY" culture="en-US"/>
+      <Spanish  code="spa" time_fmt="24" decimal_point="," thousand_sep="." date_fmt="DMY" culture="es-ES"/>
+   </languages>
+   <log4net  configSource="log.config"/>
+   <system.web>
+      <trace  enabled="false"/>
+      <httpRuntime  requestValidationMode="2.0" targetFramework="4.6" requestPathInvalidCharacters=""/>
+      <compilation  optimizeCompilations="true">
+         <assemblies>
+         </assemblies>
+      </compilation>
+   </system.web>
+   <system.serviceModel>
+      <client>
+      </client>
+      <serviceHostingEnvironment  aspNetCompatibilityEnabled="true"/>
+      <services>
+         <service  name="GeneXus.Programs.materias_bc_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materias_bc_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materias_bc_services"/>
+         </service>
+         <service  name="GeneXus.Programs.pago_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pago_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pago_services"/>
+         </service>
+         <service  name="GeneXus.Programs.getuserid_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.getuserid_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.getuserid_services"/>
+         </service>
+         <service  name="GeneXus.Programs.getbusiness_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.getbusiness_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.getbusiness_services"/>
+         </service>
+         <service  name="GeneXus.Programs.loginuser_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.loginuser_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.loginuser_services"/>
+         </service>
+         <service  name="GeneXus.Programs.addremovedevicefromgroup_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.addremovedevicefromgroup_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.addremovedevicefromgroup_services"/>
+         </service>
+         <service  name="GeneXus.Programs.procdummy_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.procdummy_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.procdummy_services"/>
+         </service>
+         <service  name="GeneXus.Programs.gxonpendingeventfailed_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.gxonpendingeventfailed_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.gxonpendingeventfailed_services"/>
+         </service>
+         <service  name="GeneXus.Programs.gxaftereventreplicator_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.gxaftereventreplicator_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.gxaftereventreplicator_services"/>
+         </service>
+         <service  name="GeneXus.Programs.notificationsregistrationhandler_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.notificationsregistrationhandler_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.notificationsregistrationhandler_services"/>
+         </service>
+         <service  name="GeneXus.Programs.pushtestmain_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pushtestmain_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pushtestmain_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.pushtestmain_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pushtestmain_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pushtestmain_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.materia_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materia_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materia_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.calendariosd_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.calendariosd_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.calendariosd_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.permisos_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.permisos_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.permisos_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.permisos_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.permisos_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.permisos_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.anuncios_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.anuncios_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.anuncios_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.pagoshist_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pagoshist_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.pagoshist_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.materesp_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materesp_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materesp_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.materesp_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materesp_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.materesp_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.schoolinfo_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.schoolinfo_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.schoolinfo_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.mensajes_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mensajes_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mensajes_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.mensajes_level_detail_grid1_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mensajes_level_detail_grid1_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.mensajes_level_detail_grid1_services"/>
+         </service>
+         <service  name="GeneXus.Programs.infoes_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.infoes_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.infoes_level_detail_services"/>
+         </service>
+         <service  name="GeneXus.Programs.home_level_detail_services" behaviorConfiguration="ServiceDefaultBehavior">
+            <endpoint  address="" binding="basicHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.home_level_detail_services"/>
+            <endpoint  address="mex" binding="mexHttpBinding" contract="IMetadataExchange"/>
+            <endpoint  address="rest" behaviorConfiguration="ServiceRestBehavior" binding="webHttpBinding" bindingConfiguration="CustomBinding" contract="GeneXus.Programs.home_level_detail_services"/>
+         </service>
+      </services>
+      <extensions>
+         <behaviorExtensions>
+            <add  name="customWebHttp" type="GeneXus.Utils.CustomHttpBehaviorExtensionElement, GxClasses, Version=11.0.0.0, Culture=neutral, PublicKeyToken=6f5bf81c27b6b8aa"/>
+         </behaviorExtensions>
+      </extensions>
+      <behaviors>
+         <endpointBehaviors>
+            <behavior  name="ServiceRestBehavior">
+               <customWebHttp />
+            </behavior>
+         </endpointBehaviors>
+         <serviceBehaviors>
+            <behavior  name="ServiceDefaultBehavior">
+               <serviceMetadata  httpGetEnabled="true"/>
+               <dataContractSerializer  maxItemsInObjectGraph="2147483647"/>
+            </behavior>
+         </serviceBehaviors>
+      </behaviors>
+      <bindings>
+         <webHttpBinding>
+            <binding  name="CustomBinding" maxReceivedMessageSize="10485760">
+               <security  mode="None">
+                  <transport  clientCredentialType="None"/>
+               </security>
+               <readerQuotas  maxStringContentLength="10485760"/>
+            </binding>
+         </webHttpBinding>
+         <basicHttpBinding>
+            <binding  name="CustomBinding" maxReceivedMessageSize="10485760">
+               <security  mode="None">
+                  <transport  clientCredentialType="None"/>
+               </security>
+               <readerQuotas  maxStringContentLength="10485760"/>
+            </binding>
+         </basicHttpBinding>
+      </bindings>
+   </system.serviceModel>
+   <system.webServer>
+      <rewrite>
+         <rules>
+            <rule  name="materias_bc" stopProcessing="true">
+               <match  url="^rest/materias(/.*)*$"/>
+               <action  type="Rewrite" url="materias_bc.svc/rest/{R:1}"/>
+            </rule>
+            <rule  name="GXObject" stopProcessing="true">
+               <match  url="^GXObject$"/>
+               <action  type="Rewrite" url="GXObject.aspx"/>
+            </rule>
+            <rule  name="gx_valid_service" stopProcessing="true">
+               <match  url="^gx_valid_service(.*)$"/>
+               <action  type="Rewrite" url="gx_valid_service.aspx{R:1}"/>
+            </rule>
+            <rule  name="gxmulticall" stopProcessing="true">
+               <match  url="^gxmulticall(.*)$"/>
+               <action  type="Rewrite" url="gxmulticall.aspx{R:1}"/>
+            </rule>
+            <rule  name="metadata" stopProcessing="true">
+               <match  url="^rest/metadata/(.*).json$"/>
+               <action  type="Rewrite" url="gxmetadata/{R:1}.json"/>
+            </rule>
+            <rule  name="metadataList" stopProcessing="true">
+               <match  url="^rest/metadata$"/>
+               <action  type="Rewrite" url="gxmetadata/gx_entity_list.json"/>
+            </rule>
+            <rule  name="metadataImg" stopProcessing="true">
+               <match  url="^rest/metadata/images/(.*)$"/>
+               <action  type="Rewrite" url="gxmetadata/images/{R:1}"/>
+            </rule>
+            <rule  name="metadataJson" stopProcessing="true">
+               <match  url="^rest/metadata/(.*)$"/>
+               <action  type="Rewrite" url="gxmetadata/{R:1}.json"/>
+            </rule>
+            <rule  name="GX REST Services" stopProcessing="true">
+               <match  url="^rest/([\w \.-/]+)/?(.*)$"/>
+               <action  type="Rewrite" url="{R:1}.svc/rest/{R:2}"/>
+            </rule>
+         </rules>
+      </rewrite>
+      <httpErrors  errorMode="Detailed"/>
+      <staticContent>
+         <remove  fileExtension=".json"/>
+         <remove  fileExtension=".woff"/>
+         <remove  fileExtension=".woff2"/>
+         <remove  fileExtension=".tmp"/>
+         <remove  fileExtension=".otf"/>
+         <mimeMap  fileExtension=".json" mimeType="application/json"/>
+         <mimeMap  fileExtension=".woff" mimeType="font/woff"/>
+         <mimeMap  fileExtension=".woff2" mimeType="font/woff2"/>
+         <mimeMap  fileExtension=".tmp" mimeType="image/jpeg"/>
+         <mimeMap  fileExtension=".otf" mimeType="font/opentype"/>
+         <remove  fileExtension=".cod"/>
+         <remove  fileExtension=".apk"/>
+         <mimeMap  fileExtension=".cod" mimeType="application/vnd.rim.cod"/>
+         <mimeMap  fileExtension=".jad" mimeType="text/vnd.sun.j2me.app-descriptor"/>
+         <mimeMap  fileExtension=".apk" mimeType="application/vnd.android.package-archive"/>
+         <mimeMap  fileExtension=".gxsd" mimeType="application/zip"/>
+         <mimeMap  fileExtension=".caf" mimeType="audio/x-caf"/>
+         <mimeMap  fileExtension=".yaml" mimeType="text/yaml"/>
+      </staticContent>
+      <handlers>
+         <add  name="GeneXus WebSocket Handler" verb="*" path="gxwebsocket.svc" type="GeneXus.Http.WSHttpHandler,gxwebsocket"/>
+         <add  name="GeneXus.HttpHandlerFactory.HandlerFactory" verb="*" path="*.aspx" type="GeneXus.HttpHandlerFactory.HandlerFactory,gxclasses"/>
+         <remove  name="WebDAV"/>
+      </handlers>
+      <modules>
+         <add  name="GXStaticContentCache" type="GeneXus.Http.HttpModules.GXStaticCacheModule,gxclasses"/>
+         <remove  name="WebDAVModule"/>
+      </modules>
+      <validation  validateIntegratedModeConfiguration="false"/>
+      <urlCompression  doStaticCompression="true"/>
+      <security>
+         <requestFiltering>
+            <hiddenSegments>
+               <add  segment="PrivateTempStorage"/>
+               <add  segment="private"/>
+            </hiddenSegments>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+   <location  path="PublicTempStorage">
+      <system.webServer>
+         <handlers>
+            <clear />
+            <add  name="StaticFile" path="*" verb="*" modules="StaticFileModule,DefaultDocumentModule,DirectoryListingModule" resourceType="Either" requireAccess="Read"/>
+         </handlers>
+      </system.webServer>
+   </location>
+</configuration>

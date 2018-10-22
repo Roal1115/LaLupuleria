@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="4b3d2a1b-5ca6-407d-b90b-3e1e4f9f5530">
+  <Table name="Users" />
+  <Table name="Materias" />
+  <Table name="Califas" />
+</Dependencies>

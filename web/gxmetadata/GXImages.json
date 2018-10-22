@@ -1,0 +1,30 @@
+{ 
+    "Resources" : [ { 
+        "IsDefault" : true,
+        "ResourceFile" : "Images_DEFAULT.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineIOS",
+        "ResourceFile" : "Images_English_CarmineIOS.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineIOS",
+        "ResourceFile" : "Images_Spanish_CarmineIOS.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineSD",
+        "ResourceFile" : "Images_English_CarmineSD.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineSD",
+        "ResourceFile" : "Images_Spanish_CarmineSD.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_English_CarmineAndroid.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_Spanish_CarmineAndroid.json"
+    } ]
+}

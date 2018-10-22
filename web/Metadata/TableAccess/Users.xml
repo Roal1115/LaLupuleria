@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="86516fa1-2c7c-40d9-8c2e-4204551639c3">
+  <Table name="Users" />
+  <Table name="Balance" />
+  <Table name="MonederoElectronico" />
+  <Table name="Califas" />
+  <Table name="Dinero" />
+  <Table name="Nursery" />
+</Dependencies>

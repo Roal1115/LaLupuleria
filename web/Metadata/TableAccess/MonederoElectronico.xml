@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="8b804ff8-36d8-40e4-bafc-630133e19728">
+  <Table name="Users" />
+  <Table name="MonederoElectronico" />
+  <Table name="MonederoElectronicoMovimientos" />
+</Dependencies>

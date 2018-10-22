@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="04ea1888-47e1-4d5c-a6df-cef4673207b2">
+  <Table name="Calendario" />
+  <Table name="CalendarioCalendarioMes" />
+</Dependencies>

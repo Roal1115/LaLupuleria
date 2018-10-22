@@ -1,0 +1,327 @@
+.pivot_filter_div {
+	height: 21px;
+	border: 1px solid #BBB;
+	padding-left: 1px;
+	padding-right: 1px;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: black;
+	cursor: default !important;
+	background: rgba(15, 91, 120, 0.25);
+	border-bottom: none;
+	border-bottom-width: 0;
+	box-sizing: border-box;
+}
+
+.pivot_table {
+	margin-bottom: 9px;
+	border-collapse: collapse;
+	font-family: 'Source Sans Pro';
+	line-height: normal;
+}
+
+.pivot_table th.drag-drop {
+	color: #0000FF;
+}
+
+.pivot_table th, .pivot_table td {
+	border: 1px solid #BBB;
+	padding: 5px;
+	min-width: 60px;
+}
+
+.pivot_table td {
+	text-align: right;
+}
+
+.pivot_table td.gtotal {
+	background: rgba(15, 91, 120, 0.02);
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+}
+
+.pivot_table td.firstlevelvalue {
+	background: rgba(15, 91, 120, 0.15);
+	color: rgba(0, 0, 0, 0.75);
+	font-weight: bold;
+}
+
+.pivot_table td.grandtotalvalue {
+	background: rgba(15, 91, 120, 0.25);
+	color: rgba(0, 0, 0, 0.9);
+	font-weight: bold;
+}
+
+.pivot_table td.total {
+	background-color: #EBEBEB;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+}
+
+.pivot_table td.subtotal {
+	background-color: #EBEBEB;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+}
+
+.pivot_table .odd {
+	background-color: #ffffff;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	font-size: 10px;
+}
+
+.pivot_table .even {
+	background-color: #FEFEFE;
+	font-weight: normal;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	padding: 5px;
+}
+
+.pivot_table .evennormal {
+	background-color: #FEFEFE;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	font-weight: normal;
+	padding: 5px;
+}
+
+.pivot_table th.h1 {
+	background-color: #f0f0f0;
+	font-family: 'Source Sans Pro';
+	font-size: 10px;
+}
+
+.pivot_table th.h2 {
+	background-color: #f0f0f0;
+	font-family: 'Source Sans Pro';
+	font-size: 10px;
+}
+
+.pivot_table th.h2title {
+	background: rgba(15, 91, 120, 1);
+	font-family: 'Source Sans Pro';
+	font-weight: normal;
+	font-size: 10pt;
+	height: 44px;
+	color: white;
+}
+
+.pivot_table th.h2subtitle {
+	background: rgba(15, 91, 120, 0.02);
+	border-color: #BBBBBB;
+	font-family: 'Source Sans Pro';
+	font-weight: normal;
+	font-size: 10pt;
+	height: 22px;
+	color: black;
+}
+
+.pivot_table th.grandtotaltitle {
+	background: rgba(15, 91, 120, 0.25);
+	color: rgba(0, 0, 0, 0.9);
+	font-weight: bold;
+}
+
+.pivot_table th.subtitleFirstLevel {
+	background: rgba(15, 91, 120, 0.15);
+	color: rgba(0, 0, 0, 0.75);
+	font-weight: bold;
+}
+
+.pivot_table th.h2titlewhite {
+	background: rgba(15, 91, 120, 1);
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	font-weight: normal;
+	height: 25px;
+	color: white;
+	cursor: default !important;
+}
+
+.pivot_table td.pivotAdd:hover {
+	background-color: #FEFEFE;
+	color: #404040;
+}
+
+.pivot_pag_div {
+	width: 398px;	
+}
+
+
+.inner_filter_div {
+	float: left;
+	overflow: hidden;
+	margin-right: 15px;
+}
+
+.conteiner_table_div {
+	position: relative;
+	clear: both;
+}
+
+.inner_filter_div select {
+	margin: 0;
+}
+
+/*styles pop up*/
+#pop-up {
+	background: repeat-x scroll 0 0 transparent;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+	border-radius: 3px;
+}
+
+#pop-up hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+.oat_winrect_content_small #pop-up {
+	font-size: 13pt;
+}
+
+
+
+#pop-up > .close_popup_div {
+	margin-left: 0px;
+	margin-right: 3px;
+}
+
+
+
+#pop-up > div {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 8px;
+}
+
+#pop-up > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+.pivot_popup_fix {
+	height: 190px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+
+.uncheck_item_img:hover {
+	background-color: #EBEBEB;
+}
+
+#pop-up input {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+}
+
+
+.close_span_filter {
+	background-image: url("RemoveFilter.png");
+	height: 13px;
+	width: 14px;
+	display: inline-block;
+	margin-left: 3px;
+	vertical-align: middle;
+}
+
+
+.pivot_table th.drag-drop {
+	color: #0000FF;
+}
+
+.pivot_table th.h2title .sort-asc {
+	background-image: url("../images/Grid_asc.gif");
+	background-repeat: no-repeat;
+}
+
+.pivot_table th.h2title .sort-desc {
+	background-image: url("../images/Grid_desc.gif");
+	background-repeat: no-repeat;
+}
+
+.pivot_table th.h2title Grid_desc.gif {
+	background-image: url("../images/Grid_none.gif");
+	background-repeat: no-repeat;
+}
+
+.pivot_table th.even .expanded {
+	background-image: url("../images/menos_pivot_js.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table td.even .expanded {
+	background-image: url("../images/menos_pivot_js.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table th.even .collapsed {
+	background-image: url("../images/mas_pivot_js.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table td.even .collapsed {
+	background-image: url("../images/mas_pivot_js.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table th.even .expanded:hover {
+	background-image: url("../images/menos_pivot_js_hover.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table td.even .expanded:hover {
+	background-image: url("../images/menos_pivot_js_hover.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table th.even .collapsed:hover {
+	background-image: url("../images/mas_pivot_js_hover.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.pivot_table td.even .collapsed:hover {
+	background-image: url("../images/mas_pivot_js_hover.png");
+	background-repeat: no-repeat;
+	background-position: 0px 4px;
+	padding-top: 5px;
+	margin-left: 3px;
+}
+
+.h2title > div {
+	width: 100% !important;
+}
+
+.oat_winrect_content_small .search_input {
+	width: 100%;
+	font-size: 13pt !important;
+}
+

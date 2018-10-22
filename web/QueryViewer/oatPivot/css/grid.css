@@ -1,0 +1,197 @@
+/* ---------------- top -------------- */
+.oatgrid_top_div {
+	height: 23px;
+	border: 1px solid #BBB;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-bottom: none;
+	font-family: 'Source Sans Pro';
+	cursor: default !important;
+	background: rgba(15, 91, 120, 0.25);
+	box-sizing: border-box;
+}
+
+.oatgrid_top_div_small {
+	height: 34px;
+}
+ 
+/* ---------------- table -------------- */
+.oatgrid {
+	border-collapse: collapse;
+	margin-bottom: 9px;
+}
+
+/* ---------------- rows -------------- */
+.oatgrid tr {
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	line-height: 22px;
+}
+
+.oatgrid .even {
+	background: rgba(15, 91, 120, 0.05);
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+}
+
+.oatgrid .odd {
+	background-color: #FEFEFE;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+}
+
+.oatgrid tr.selected {
+	background-color: #ff0000;
+	color: #FEFEFE;
+}
+
+/* ---------------- cols -------------- */
+.oatgrid thead td {
+	background-color: #ebeadb;
+	font-weight: bold;
+}
+
+.oatgrid td {
+	border-bottom: 1px solid #BBB;
+	border-left: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	padding: 0px;
+}
+
+.oatgrid td.index {
+	background-color: #aaa;
+}
+
+.oatgrid .header_value {
+	background: rgba(15, 91, 120, 1);
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: white;
+	font-weight: normal;
+	line-height: 44px;
+	text-align: center;
+}
+
+.oatgrid .row_value {
+	padding: 2px 3px;
+	padding: 3px;
+}
+
+#oatGridAnchor {
+	background: url("ic_item.png") no-repeat scroll 0 0 transparent;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: black;
+	padding-left: 20px;
+	text-decoration: none;
+	float: left;
+}
+
+/*styles pop up*/
+.oatfilterwindow {
+	background: url("") repeat-x scroll 0 0 transparent;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+	padding: 0px;
+}
+
+.oatfilterwindow_small {
+	font-size: 13pt;
+}
+
+.oatfilterwindow_small .search_input {
+	width: 100%;
+	font-size: 15px;
+}
+
+.oatfilterwindowGrid {
+	background: url("") repeat-x scroll 0 0 #FFFFFF;
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+	padding: 0px;
+}
+
+.oatfilterwindow hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 80%;
+}
+
+.oatfilterwindowGrid hr {
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.promp-grid-button {
+	width: 100%;
+}
+
+
+.oatfilterwindow > .close_popup_div {
+	margin-left: 0px;
+	margin-right: 3px;
+}
+
+.oatfilterwindowGrid > .close_popup_div {
+	margin-left: 0px;
+	margin-right: 3px;
+}
+
+.oatfilterwindow > div {
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 8px;
+}
+
+.oatfilterwindowGrid > div {
+	margin-left: 10px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+
+.oatfilterwindow > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+.oatfilterwindowGrid > .last_div_popup {
+	margin-bottom: 16px;
+}
+
+
+.oatfilterwindow input {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+}
+
+.oatfilterwindowGrid input {
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: #404040;
+}
+
+/* ---------------- sort image -------------- */
+.table-sort-image {
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+	width: 12px;
+	height: 12px;
+}
+
+.table-sort-none{
+	background-image: url("../images/Grid_none.gif")
+}
+
+.table-sort-asc{
+	background-image: url("../images/Grid_asc.gif");
+}
+
+.table-sort-desc{
+	background-image: url("../images/Grid_desc.gif")
+}
