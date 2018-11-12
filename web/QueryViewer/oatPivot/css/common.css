@@ -1,0 +1,250 @@
+/*pagination style*/
+.pivot_pag_div {
+	background: rgba(15, 91, 120, 0.25);
+	font-family: 'Source Sans Pro';
+	font-size: 10pt;
+	color: black;
+	border-left: 1px solid #BBB;
+	border-bottom: 1px solid #BBB;
+	border-right: 1px solid #BBB;
+	text-align: center;
+	height: 30px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.pivot_pag_div_sd {
+	height: 35px;
+	padding-top: 4px;
+}
+
+.pivot_pag_div img {
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+
+.pivot_pag_div .pagefirst {
+	background-image: url("PageFirst.png");
+	padding: 5px 13px 13px 8px;
+}
+
+.pivot_pag_div .pagelast {
+	background-image: url("PageLast.png");
+	padding: 5px 13px 13px 8px;
+}
+
+.pivot_pag_div .pagenext {
+	background-image: url("PageNext.png");
+	padding: 5px 8px 13px 13px;
+}
+
+.pivot_pag_div .pageprev {
+	background-image: url("PagePrevious.png");
+	padding: 5px 8px 13px 13px;
+}
+
+.pivot_pag_div .pagefirst_ios {
+	background-image: url("PageFirstBig.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 6px 35px 6px 0px;
+}
+
+.pivot_pag_div .pageprev_ios {
+	background-image: url("PagePreviousBig.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 6px 18px 6px 15px;
+}
+
+.pivot_pag_div .pagelast_ios {
+	background-image: url("PageLastBig.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 6px 35px 6px 0px;
+}
+
+.pivot_pag_div .pagenext_ios {
+	background-image: url("PageNextBig.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 6px 18px 6px 15px;
+}
+
+.disabled_pivot_button {
+	pointer-events: none;
+	opacity: 0.4;
+}
+
+/* pop-up style */
+.close_popup_div {
+	background: url("../images/RectWin_close.png") no-repeat 50% 50%;
+	width: 14px;
+	height: 13px;
+	margin-left: 0px;
+	margin-right: 3px;
+	margin-top: 3px;
+}
+
+
+.promp-pivot-button {
+	width: 100%;
+}
+
+.pivot_popup_fix {
+	height: 190px;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.exportOptionsAnchor {
+	background: url("ic_item.png") no-repeat scroll 0 0 transparent;
+	float: right;
+	height: 20px;
+	width: 16px;
+	padding-left: 6px;
+	cursor: pointer;
+	box-sizing: content-box;
+	margin-top: 1px;
+}
+
+.exportOptionsAnchor_small {
+	background: url("ic_item_32.png") no-repeat scroll 0 0 transparent;
+	height: 32px;
+	width: 32px;
+}
+
+.pivot_filter_div > span {
+	float: left;
+	padding-top: 2px;
+	padding-left: 3px;
+}
+
+#exportOptionsContainer input {
+	margin-bottom: 6px;
+}
+
+
+/* check images style */
+.check_item_img {
+	background: url("checkmark.png") no-repeat scroll 0 0 transparent;
+	padding-left: 29px;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+
+.check_item_img:hover {
+	background-color: #EBEBEB;
+}
+
+.check_item_img_small {
+	background: url("checkmark-bg.png") no-repeat scroll 0 0 transparent;
+	padding-left: 40px;
+	cursor: pointer;
+	margin-bottom: 8px;
+	background-position: 0px;
+}
+
+.uncheck_item_img {
+	background: url("uncheckmark.png") no-repeat scroll 0 0 transparent;
+	padding-left: 29px;
+	cursor: pointer;
+	margin-bottom: 8px;
+}
+
+.uncheck_item_img:hover {
+	background-color: #EBEBEB;
+}
+
+.uncheck_item_img_small {
+	background: url("uncheckmark-bg.png") no-repeat scroll 0 0 transparent;
+	padding-left: 40px;
+	cursor: pointer;
+	margin-bottom: 8px;
+	background-position: 0px;
+}
+
+.div_buttons_popup {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+/*Buttons*/
+.div_buttons_popup .btn {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background-color: white;
+	border-color: #0F5B78;
+	border-radius: 4px 4px 4px 4px;
+	border-style: solid;
+	border-width: 1px;
+	color: #0F5B78;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.1em;
+	line-height: 20px;
+	margin-bottom: 0;
+	padding: 3px 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.div_buttons_popup .btn:hover,
+.div_buttons_popup .btn:focus {
+	background-color: #d9e0e3;
+}
+
+.oat_winrect_content_small #pivot_order_asc {
+	margin-left: 8px;
+}
+
+.oat_winrect_content_small #pivot_order_desc {
+	margin-left: 8px;
+}
+
+.oat_winrect_content_small .first_popup_subdiv label {
+	margin-left: 5px;
+}
+
+/* container table */
+.divIeContainer {
+	display: inline-block;
+}
+
+.first_popup_subdiv {
+	display: inline-block;
+	position: relative;
+}
+
+.first_popup_subdiv input[type='radio'] {
+	display: none;
+}
+
+.first_popup_subdiv input[type=radio] + label:before {
+	content: " ";
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin: 0 8px 0 0;
+	width: 19px;
+	height: 19px;
+	background-image: url("radiounchecked.png");
+}
+
+.first_popup_subdiv input[type=radio]:checked + label:before {
+	content: " ";
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	margin: 0 8px 0 0;
+	width: 19px;
+	height: 19px;
+	background-image: url("radiochecked.png");
+}

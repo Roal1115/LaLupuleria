@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="guid" guid="a08bba6d-161e-439d-b0c3-b18b9febdcd9">
+  <Table name="Users" />
+  <Table name="Balance" />
+  <Table name="BalanceHistory" />
+</Dependencies>

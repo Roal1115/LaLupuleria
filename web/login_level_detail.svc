@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.login_level_detail_services,login_level_detail" %>

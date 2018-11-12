@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Objects xmlns="qv">
+  <Object name="Moviles" id="1" type="Query" xmlns="qv">
+    <DefaultOutput type="OutputTypePivotTable" />
+  </Object>
+</Objects>

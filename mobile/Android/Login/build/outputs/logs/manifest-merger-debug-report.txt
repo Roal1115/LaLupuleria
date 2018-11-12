@@ -1,0 +1,637 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:2:1-17:12
+MERGED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:2:1-27:12
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:2:1-102:12
+MERGED from [com.genexus:SqlDroidBase:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-15.12-SNAPSHOT.aar\84dd159bcebeec25f1f724459ac2a18e\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:2:1-14:12
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:2:1-106:12
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\0b9716715c16e6ee24b2d67d7059128f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:17:1-24:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+	package
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:1-46:12
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:4:5-35
+permission#com.artech.verbo2.login.permission.C2D_MESSAGE
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:7:5-117
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:8:5-10:47
+	android:protectionLevel
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:7:79-114
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:7:17-78
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:8:5-66
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:24:5-66
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:9:5-68
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:19:5-68
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:9:22-65
+uses-permission#com.artech.verbo2.login.permission.C2D_MESSAGE
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:10:5-86
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:10:22-83
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:11:5-82
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:18:5-82
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:18:5-82
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:11:22-79
+application
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:13:5-45:17
+MERGED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:11:5-15:19
+MERGED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:12:5-25:19
+MERGED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:12:5-25:19
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:15:5-100:19
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:15:5-100:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:7:5-12:19
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:49:5-104:19
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:49:5-104:19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:19:5-21:19
+	android:label
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:19:18-50
+	android:hardwareAccelerated
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:14:18-52
+	android:resizeableActivity
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:15:18-52
+	android:icon
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:18:18-50
+	android:allowBackup
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:16:18-45
+	android:theme
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:17:18-57
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:13:18-49
+activity#com.artech.verbo2.login.Main
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:21:9-26:20
+	android:label
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:21:40-72
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:21:19-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:24:27-74
+activity#com.artech.controls.maps.googlev2.LocationPickerActivity
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:28:9-93
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:70:9-93
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:70:9-93
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:28:19-90
+provider#com.artech.verbo2.login.AppEntityDataProvider
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:31:9-171
+	android:authorities
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:31:105-168
+	android:exported
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:31:80-104
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:31:19-79
+service#com.artech.verbo2.login.AppEntityService
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:34:9-99
+	android:enabled
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:34:18-40
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:34:41-96
+activity#com.artech.android.gam.AuthRedirectActivity
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:36:9-43:20
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:76:9-87:20
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:76:9-87:20
+	android:exported
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:36:78-101
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:36:19-77
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:37:13-42:29
+action#android.intent.action.VIEW
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:38:17-68
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:38:25-66
+category#android.intent.category.DEFAULT
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:39:17-75
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:39:27-73
+category#android.intent.category.BROWSABLE
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:40:27-75
+data
+ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:41:17-47
+	android:scheme
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml:41:23-45
+uses-sdk
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+MERGED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:8:5-10:41
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:6:5-9:62
+MERGED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:6:5-9:62
+MERGED from [com.genexus:SqlDroidBase:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-15.12-SNAPSHOT.aar\84dd159bcebeec25f1f724459ac2a18e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.genexus:SqlDroidBase:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\SqlDroidBase-15.12-SNAPSHOT.aar\84dd159bcebeec25f1f724459ac2a18e\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:design:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\4eac811a596a4d45325b4b8d2e8badbc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\0f419e25c3e50d10bb316e3a0ee46115\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:5:5-44
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-places-11.4.0.aar\a1fa42cd9ef4030a95e1044aa8c0bd53\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-location-11.4.0.aar\7bcb7bbb279b3876a80ffe122c829826\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\d544340f9f66540333c9d66d13c2e60a\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\def54c6827fc1a964c05caf0743b24dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\e446df884b6e83c95a3dab8798d4e3b9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\906d8a9a2908eb48e0bf22226906238c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\1ea16ca45f8b80b3804e0bee4a7fb8c1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\87511c9f40cd62aed1da476e44850e8e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\d54c8a8b9fe5c9aee484dd4ca5efa77a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\0042833a8c9aa412d7d228defd3b9903\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\ea9713ffc54fff19fbb7a0da9c0d9492\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\db62fd79e5e999d07ba908916df94573\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\a788a9dbe9f57320e208ab6a19291740\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\9212f1ce3038d03a6409deb67aa5e512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\0b9716715c16e6ee24b2d67d7059128f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.0.aar\0b9716715c16e6ee24b2d67d7059128f\AndroidManifest.xml:20:5-44
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:7:5-9:41
+MERGED from [com.makeramen:roundedimageview:2.0.1] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\roundedimageview-2.0.1.aar\cd78b309ac7dde430d2baee293312e28\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\fae95c463fa220721c819fbc9df6cfee\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:9:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		ADDED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+		INJECTED from C:\Models\Verbo2\CSharpModel\mobile\Android\Login\src\main\AndroidManifest.xml
+receiver#com.genexus.coreexternalobjects.geolocation.fused.LocationFusedProviderReceiver
+ADDED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:12:9-14:39
+	android:exported
+		ADDED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.genexus:CoreExternalObjects:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\CoreExternalObjects-15.12-SNAPSHOT.aar\b734cd08e0a45ca79aeaf26f40b578d4\AndroidManifest.xml:13:13-107
+meta-data#com.onesignal.NotificationOpened.DEFAULT
+ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:13:9-15:39
+	android:value
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:15:13-36
+	android:name
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:14:13-68
+service#com.genexus.notifications.CustomNotificationExtenderService
+ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:17:9-24:19
+	android:exported
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:19:13-37
+	android:permission
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:20:13-69
+	android:name
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:18:13-87
+intent-filter#com.onesignal.NotificationExtender
+ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:21:13-23:29
+action#com.onesignal.NotificationExtender
+ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from [com.genexus:OneSignalModule:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignalModule-15.12-SNAPSHOT.aar\fdf321983d5756f32008689afd23a5e6\AndroidManifest.xml:22:25-74
+uses-permission#android.permission.INTERNET
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:11:5-67
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:17:5-67
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:17:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-gcm-11.4.0.aar\caec5719953230224244a393ded4cf88\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-iid-11.4.0.aar\8d145cacaa3a0ee25bd83a58d431ad7d\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:12:5-79
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:25:5-79
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:19:5-78
+MERGED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:13:22-78
+activity#com.artech.activities.GenexusActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:18:9-25:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:20:13-45
+	android:windowSoftInputMode
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:21:13-73
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:19:13-65
+meta-data#android.app.default_searchable
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:22:13-24:76
+	android:value
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:24:17-73
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:23:17-62
+activity#com.artech.activities.SearchStubActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:26:9-40:20
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:27:13-68
+intent-filter#android.intent.action.SEARCH+android.intent.category.DEFAULT
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:31:13-35:29
+action#android.intent.action.SEARCH
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:32:17-71
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:32:25-68
+meta-data#android.app.searchable
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:37:13-39:54
+	android:resource
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:39:17-51
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:38:17-54
+activity#com.artech.activities.dashboard.DashboardActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:41:9-43:48
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:43:13-45
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:42:13-77
+activity#com.artech.activities.BTDeviceList
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:44:9-71
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:44:19-68
+activity#com.artech.activities.WebViewActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:45:9-48:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:47:13-48
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:46:13-65
+activity#com.artech.activities.VideoViewActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:49:9-52:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:51:13-48
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:50:13-67
+activity#com.artech.application.Preferences
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:53:9-56:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:55:13-52
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:54:13-62
+activity#com.artech.activities.FiltersActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:57:9-60:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:59:13-47
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:58:13-65
+activity#com.artech.activities.DetailFiltersActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:61:9-64:20
+	android:label
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:63:13-47
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:62:13-71
+activity#com.artech.activities.SearchResultsActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:65:9-69:20
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:65:19-77
+activity#com.artech.android.gam.AuthManagementActivity
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:71:9-75:75
+	android:launchMode
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:74:13-44
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:73:13-37
+	android:theme
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:75:13-72
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:72:13-73
+receiver#com.artech.android.notification.NotificationAlarm
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:89:9-86
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:89:19-83
+provider#com.artech.android.content.CustomFileProvider
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:91:9-99:20
+	android:grantUriPermissions
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:95:13-47
+	android:authorities
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:93:13-65
+	android:exported
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:94:13-37
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:92:13-73
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:96:13-98:56
+	android:resource
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:98:17-53
+	android:name
+		ADDED from [com.genexus:FlexibleClient:15.12-SNAPSHOT] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\FlexibleClient-15.12-SNAPSHOT.aar\a6712ae28dab9ae268116dec09b31736\AndroidManifest.xml:97:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\ab01e581579351e77a3741ffe8dcab89\AndroidManifest.xml:9:13-64
+permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:8:5-10:47
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+MERGED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:12:5-79
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:30:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:32:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:33:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:34:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:35:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:36:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:37:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:38:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:39:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:40:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:41:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:42:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:47:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:51:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:55:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:60:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:59:13-62
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:63:28-50
+intent-filter#com.artech.verbo2.login+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:63:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:64:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:66:27-58
+category#com.artech.verbo2.login
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:66:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:69:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:71:18-63
+service#com.onesignal.GcmIntentJobService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:72:9-74:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:74:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:73:13-61
+service#com.onesignal.SyncJobService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:75:9-77:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:77:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:76:13-56
+service#com.onesignal.RestoreJobService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:78:9-80:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:80:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:79:13-59
+service#com.onesignal.RestoreKickoffJobService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:81:9-83:72
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:83:13-69
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:82:13-66
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:84:9-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:84:18-58
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:86:9-88:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:88:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:87:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:90:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:90:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:92:9-98:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:92:19-62
+intent-filter#android.intent.action.ACTION_BOOT_COMPLETED+android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.ACTION_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:94:17-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:94:25-83
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:95:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:95:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:96:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:96:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:99:9-103:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:99:19-63
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:100:13-102:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:101:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.6.5] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\OneSignal-3.6.5.aar\b30d06ff91dbb0191b5266fe14b59137\AndroidManifest.xml:101:25-81
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-maps-11.4.0.aar\83f17e7fbf29a32be3ce23579e73c737\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\15f1b62dbd613bd2b83dd70502687b4d\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\yo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\8fad81845cf661bd35b5339394ed182f\AndroidManifest.xml:20:20-65

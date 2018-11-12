@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.artech.verbo2.pushtestmain"
+    android:installLocation="auto">
+
+    <!-- Only this application can receive the messages and registration result -->
+    <permission android:name="com.artech.verbo2.pushtestmain.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.artech.verbo2.pushtestmain.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <application android:name=".MainApplication" 
+                 android:hardwareAccelerated="true"
+                 android:resizeableActivity="false"
+                 android:allowBackup="false"
+                 android:theme="@style/ApplicationTheme"
+                 android:icon="@drawable/appicon"
+                 android:label="@string/app_name">
+
+        <activity android:name=".Main" android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.artech.controls.maps.googlev2.LocationPickerActivity" />
+
+        <!-- Provider -->
+        <provider android:name="com.artech.verbo2.pushtestmain.AppEntityDataProvider" android:exported="false" android:authorities="com.artech.verbo2.pushtestmain.appentityprovider" />
+
+        <!-- Service -->
+        <service android:enabled="true" android:name="com.artech.verbo2.pushtestmain.AppEntityService" />
+
+        <activity android:name="com.artech.android.gam.AuthRedirectActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="gxgam"/>
+            </intent-filter>
+        </activity>
+
+  </application>
+</manifest>
